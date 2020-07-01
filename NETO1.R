@@ -1,6 +1,6 @@
 bruto_neto<-function(x){
         if(x>=555 & 
-           x<2555){ #kodel tax.lt puslapyje, kai bruto yra 2555 npd yra 0, o pvz kai 2554 tai npd=0.15???
+           x<2555){ 
                 MMA<-555 
                 NPD<-300-0.15*(x-MMA)
         }else if(x>=2555){
